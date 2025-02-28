@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Label at the top -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gallery"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- RecyclerView for displaying the grid of photos -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewGallery"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle"
+        app:layout_constraintBottom_toTopOf="@+id/buttonContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Container for the buttons to arrange them horizontally -->
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="16dp"
+        android:gravity="center"> <!-- Center buttons in the container -->
+
+        <!-- Button to change grid pattern -->
+        <Button
+            android:id="@+id/buttonChangeGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_grid_pattern"
+            android:layout_marginEnd="8dp" /> <!-- Add margin for spacing -->
+
+        <!-- Button to open InspirationsActivity -->
+        <Button
+            android:id="@+id/buttonInspirations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inspirations"
+        android:layout_marginEnd="8dp" /> <!-- Add margin for spacing -->
+
+        <!-- Button to delete selected images -->
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:visibility="gone"
+            android:layout_marginEnd="8dp" /> <!-- Add margin for spacing -->
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

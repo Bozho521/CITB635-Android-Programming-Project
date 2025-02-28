@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PhotoGalleryApp</string>
+    <string name="photo_description">Photo in the gallery</string>
+    <string name="gallery">GALLERY</string>
+    <string name="inspirations">INSPIRATIONS</string>
+    <string name="image_description">Image description</string>
+    <string name="save">Save</string>
+    <string name="replace">Replace</string>
+    <string name="greyscale">Greyscale</string>
+    <string name="revert">Revert</string>
+    <string name="undo">Undo</string>
+    <string name="d">D</string>
+    <string name="change_grid_pattern">Change Grid Pattern</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+</resources>
