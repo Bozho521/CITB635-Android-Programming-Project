@@ -29,9 +29,9 @@ Fetch **high-quality images** from Unsplash
 Save & 📤 share inspirational photos  
 Toggle **grid & list views**  
 
-![Inspirational_Photo_1](./showcase/showcase_6.png) 
-![Inspirational_Photo_2](./showcase/showcase_7.png) 
-![Inspirational_Photo_3](./showcase/showcase_8.png)  
+![Inspirational_Photo_1](./showcase/Showcase_6.png) 
+![Inspirational_Photo_2](./showcase/Showcase_7.png) 
+![Inspirational_Photo_3](./showcase/Showcase_8.png)  
 
 
 ### 🔍 **Photo Details & Zoom**  
