@@ -13,12 +13,14 @@ A versatile Android app for browsing, editing, and sharing photos. Supports loca
 ✅ Browse & view images from your device  
 ✅ Select & manage multiple images  
 ✅ Customize grid layout (1x1 to 5x5)
+
 ![Local Gallery](./showcase/Showcase_1.png)  
 
 ### 🎨 **Photo Editing**  
 Apply **grayscale** & **invert colors**  
 Undo changes & reset to the original  
-Save edits or replace the original image  
+Save edits or replace the original image
+
 ![Photo_Editing_1](./showcase/Showcase_2.png)  
 ![Photo_Editing_2](./showcase/Showcase_3.png)  
 
@@ -26,6 +28,7 @@ Save edits or replace the original image
 Fetch **high-quality images** from Unsplash  
 Save & 📤 share inspirational photos  
 Toggle **grid & list views**  
+
 ![Inspirational_Photo_1](./showcase/showcase_6.png) 
 ![Inspirational_Photo_2](./showcase/showcase_7.png) 
 ![Inspirational_Photo_3](./showcase/showcase_8.png)  
