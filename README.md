@@ -5,26 +5,31 @@
 
 A versatile Android app for browsing, editing, and sharing photos. Supports local gallery management, photo effects, and inspirational images from Unsplash!  
 
-![Gallery Showcase](./showcase/showcase_1.jpg)  
+![Gallery APP Showcase](./showcase/Showcase.gif)  
 
 ## ✨ Features  
 
 ### 📂 **Local Gallery Management**  
 ✅ Browse & view images from your device  
 ✅ Select & manage multiple images  
-✅ Customize grid layout (1x1 to 5x5)  
+✅ Customize grid layout (1x1 to 5x5)
+![Local Gallery](./showcase/Showcase_1.png)  
 
 ### 🎨 **Photo Editing**  
 Apply **grayscale** & **invert colors**  
 Undo changes & reset to the original  
 Save edits or replace the original image  
+![Photo_Editing_1](./showcase/Showcase_2.png)  
+![Photo_Editing_2](./showcase/Showcase_3.png)  
 
 ### 🌍 **Inspirational Photos**  
 Fetch **high-quality images** from Unsplash  
 Save & 📤 share inspirational photos  
 Toggle **grid & list views**  
+![Inspirational_Photo_1](./showcase/showcase_6.png) 
+![Inspirational_Photo_2](./showcase/showcase_7.png) 
+![Inspirational_Photo_3](./showcase/showcase_8.png)  
 
-![Gallery Showcase](./showcase/showcase_2.jpg)  
 
 ### 🔍 **Photo Details & Zoom**  
 View images in detail with **zoom & pan**  
@@ -45,9 +50,6 @@ Handle **permission denials gracefully**
 2️⃣ **Edit Photos** – Apply effects & save changes  
 3️⃣ **Explore Inspirations** – Fetch, save, and share Unsplash images  
 4️⃣ **View Photo Details** – Zoom & pan with ease  
-
-![Gallery Showcase](./showcase/showcase_3.jpg)  
-
 
 ## 📦 Dependencies  
 
