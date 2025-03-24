@@ -26,36 +26,9 @@ Save edits or replace the original image
 
 ### 🌍 **Inspirational Photos**  
 Fetch **high-quality images** from Unsplash  
-Save & 📤 share inspirational photos  
+Save & share inspirational photos  
 Toggle **grid & list views**  
 
 ![Inspirational_Photo_1](./showcase/Showcase_6.png)
 ![Inspirational_Photo_2](./showcase/Showcase_7.png)
 ![Inspirational_Photo_3](./showcase/Showcase_8.png)
-
-
-### 🔍 **Photo Details & Zoom**  
-View images in detail with **zoom & pan**  
-**Double-tap** to zoom in/out  
-Save photos from the detail view  
-
-### 🗂 **Database Integration**  
-Store **image metadata** (URI & name) in SQLite  
-Auto-update gallery when images are added/deleted  
-
-### 🔒 **Permissions & Security**  
-Request necessary permissions for images  
-Handle **permission denials gracefully**  
-
-## 🚀 How to Use  
-
-1️⃣ **Browse Local Gallery** – Tap to edit or view details  
-2️⃣ **Edit Photos** – Apply effects & save changes  
-3️⃣ **Explore Inspirations** – Fetch, save, and share Unsplash images  
-4️⃣ **View Photo Details** – Zoom & pan with ease  
-
-## 📦 Dependencies  
-
-- **AndroidX Libraries** – Modern Android development  
-- **Unsplash API** – Fetch stunning photos  
-- **SQLite Database** – Store image metadata  
